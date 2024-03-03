@@ -1,0 +1,52 @@
+* {
+    text-align: center;
+}
+
+#content-div {
+    width: 35%;
+    margin: 0 auto;
+}
+
+form {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.todo-details {
+    display: none;
+}
+
+.todo-title-div, .project-title-div, .projects-head-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.todo-title, .project-title, #projects-head {
+    margin-left: auto;
+    margin-right: 8%;
+}
+
+.project-title {
+    margin-right: 28%;
+}
+
+.expand-details {
+    margin-right: 10%;
+}
+
+#projects-head {
+    margin-right: 31%;
+}
+
+.projects-head-div, .todos-head, .project-container {
+    border-bottom: 2px solid black;
+}
+
+.todos-head {
+    border-top: 2px solid black;
+}
+
+.project-container {
+    margin-bottom: 20%;
+}
